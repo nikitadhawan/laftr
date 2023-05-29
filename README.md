@@ -20,7 +20,8 @@ ______________________________________________________________________
 
 An experiment can be run by defining an `hparams` object in [hp.py](https://github.com/nikitadhawan/laftr/blob/main/continual/hparams/base_hparams/hp.py) and using the command:
 
-```python -m continual.FSD_CL --hparam_set=hparams
+```bash
+python -m continual.FSD_CL --hparam_set=hparams
 ```
 
 Examples of hyperparameter settings that reproduce results in the paper are provided in [hp.py](https://github.com/nikitadhawan/laftr/continual/hparams/base_hparams/hp.py).
